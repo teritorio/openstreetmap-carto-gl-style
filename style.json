@@ -1,0 +1,37 @@
+{
+  "version": 8,
+  "name": "OpenStreetMap Carto",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "center": [0, 0],
+  "zoom": 1,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "openstreetmap-carto": {
+      "type": "raster",
+      "tiles": [
+        "https://a.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png",
+        "https://b.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png",
+        "https://c.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256,
+      "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" rel=\"noopener noreferrer\" target=\"_blank\">&copy; Contributeurs OpenStreetMap</a> <a href=\"https://www.teritorio.fr/\" rel=\"noopener noreferrer\" target=\"_blank\">&copy; Teritorio</a>",
+      "minzoom": 1,
+      "maxzoom": 20
+    }
+  },
+  "glyphs": "https://vecto-dev.teritorio.xyz/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "#f2efe9"}
+    },
+    {
+      "id": "openstreetmap-carto",
+      "type": "raster",
+      "source": "openstreetmap-carto"
+    }
+  ],
+  "id": "openstreetmap-carto"
+}
