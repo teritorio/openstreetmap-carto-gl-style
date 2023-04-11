@@ -10,9 +10,7 @@
     "openstreetmap-carto": {
       "type": "raster",
       "tiles": [
-        "https://a.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png",
-        "https://b.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png",
-        "https://c.tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png"
+        "https://tiles.teritorio.xyz/styles/osm/{z}/{x}/{y}.png"
       ],
       "tileSize": 256,
       "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" rel=\"noopener noreferrer\" target=\"_blank\">&copy; Contributeurs OpenStreetMap</a> <a href=\"https://www.teritorio.fr/\" rel=\"noopener noreferrer\" target=\"_blank\">&copy; Teritorio</a>",
