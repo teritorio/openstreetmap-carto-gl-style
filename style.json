@@ -18,7 +18,7 @@
       "maxzoom": 20
     }
   },
-  "glyphs": "https://vecto-dev.teritorio.xyz/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://vecto.teritorio.xyz/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
